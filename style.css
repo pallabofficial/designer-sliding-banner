@@ -1,0 +1,91 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+#main{
+    
+}
+#center{
+    width:100vw;
+    height:100vh;
+    background-color: #f0f4f8;
+    position: relative;
+}
+#logo-div{
+    position: absolute;
+    top:9vh;
+    left:8vw;
+    width:4vw;
+    
+    aspect-ratio: 1/1;
+    /* border: 1px solid black; */
+}
+#logo{
+    width:max-content;
+    font-size: 3vw;;
+}
+#pagination-div{
+    display: flex;
+    flex-direction: column;
+    gap:3vh;
+    align-items: center;
+    position: absolute;
+    left:8vw;
+    top:30%;
+}
+
+.pagination-dots{
+    width:0.3vw;
+    height:15vh;
+    background-color: #D3D5DA;    
+}
+
+.img-div{
+    width:75%;
+    height:85%;
+    position: absolute;
+    border: 1px solid black;
+    top:10vh;
+    right:8vw;
+}
+
+#banner-title-div{
+    z-index: 99;
+    width:45%;
+    height:25%;
+    /* border: 1px solid black; */
+    position: absolute;
+    top:35%;
+    left:12vw;
+    overflow: hidden;
+
+
+}
+.banner-title{
+    width:100%;
+    height:100%;
+    font-size: 10vw;
+    letter-spacing: 1vw;
+}
+
+#banner-desc-div{
+    z-index: 99;
+    width:45%;
+    height:20%;
+    /* border: 1px solid black; */
+    position: absolute;
+    top:62%;
+    left:12vw;
+    overflow: hidden;
+
+
+}
+.banner-desc{
+    width:70%;
+    height:100%;
+    font-size: 1vw;
+    text-align: left;
+    line-height: 4vh;
+
+}
