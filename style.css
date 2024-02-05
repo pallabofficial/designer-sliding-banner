@@ -35,7 +35,7 @@
     top:30%;
 }
 
-.pagination-dots{
+.pagination-bars{
     width:0.3vw;
     height:15vh;
     background-color: #D3D5DA;    
@@ -56,7 +56,7 @@
     height:25%;
     /* border: 1px solid black; */
     position: absolute;
-    top:35%;
+    top:30%;
     left:12vw;
     overflow: hidden;
 
@@ -75,7 +75,7 @@
     height:20%;
     /* border: 1px solid black; */
     position: absolute;
-    top:62%;
+    top:57%;
     left:12vw;
     overflow: hidden;
 
@@ -88,4 +88,51 @@
     text-align: left;
     line-height: 4vh;
 
+}
+#banner-more-div{
+    width:10vw;
+    aspect-ratio: 4/1;
+    
+    position: absolute;
+    left:12vw;
+    top:80%;
+    display: flex;
+    justify-content: flex-start;
+    gap:0.5vw;
+    align-items: center;
+    font-size: 2vw;
+    z-index: 99;
+
+}
+#side-navbar{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top:10vh;
+    right:0;
+    /* border: 1px solid black; */
+    width:8vw;
+    height:85%;
+    
+}
+
+#hamburger-icon-div{
+    width:3vw;
+    aspect-ratio: 1/1;   
+    
+    /* border: 1px solid black; */
+    font-size: 2vw;
+    
+
+}
+
+#social-media-links-div{
+    height:40%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 2vw;
 }
